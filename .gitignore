@@ -1,0 +1,19 @@
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de entorno virtual
+venv/
+env/
+.env
+
+# Archivos de Jupyter/Colab
+.ipynb_checkpoints/
+.DS_Store
+
+# Datos sensibles o temporales
+*.csv
+*.xlsx
+*.pkl
