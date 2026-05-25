@@ -1,6 +1,12 @@
 # Oráculo del Balón 2026
 
 Simulador de Monte Carlo para predecir los resultados de la Copa del Mundo 2026 utilizando modelos de Machine Learning (XGBoost/Regresión Logística) y Ranking ELO.
+# -------------------------------------------------------------------
+# Este código genera un único archivo consolidado (modelo_entrenado.pkl),
+# el cual sirve como base de entrenamiento para los distintos módulos
+# de predicción y simulación del modelo.
+# -------------------------------------------------------------------
+
 
 ## Estructura del Proyecto
 - `config.py`: Variables globales, diccionarios de equipos y configuración inicial.
@@ -10,4 +16,4 @@ Simulador de Monte Carlo para predecir los resultados de la Copa del Mundo 2026 
 ## Instalación
 Asegúrate de tener instaladas las librerías necesarias:
 ```bash
-pip install pandas numpy scikit-learn
+pip install pandas numpy scikit-learn xgboost seaborn matplotlib requests
