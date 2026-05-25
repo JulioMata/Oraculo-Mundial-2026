@@ -2,9 +2,7 @@
 
 Simulador de Monte Carlo para predecir los resultados de la Copa del Mundo 2026 utilizando modelos de Machine Learning (XGBoost/Regresión Logística) y Ranking ELO.
 # -------------------------------------------------------------------
-# Este código genera un único archivo consolidado (modelo_entrenado.pkl),
-# el cual sirve como base de entrenamiento para los distintos módulos
-# de predicción y simulación del modelo.
+# Este código genera un único archivo consolidado (modelo_entrenado.pkl), el cual sirve como base de entrenamiento para los distintos módulos de predicción y simulación del modelo.
 # -------------------------------------------------------------------
 
 
